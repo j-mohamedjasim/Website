@@ -1,0 +1,47 @@
+body{
+    background-color:beige;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    border: 1px solid rgb(179, 179, 152);
+    background-color: beige;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+    color: purple;
+    border-bottom: 4px solid rgb(179, 179, 152);
+    border-right: 4px solid rgb(179, 179, 152);
+}
+
+input{
+    border: 1px solid black;
+    padding: 5px;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 15px;
+}
+
+input:hover{
+    border: 2px solid black;
+    text-decoration: underline;
+}
+
+#result{
+    font-family: "Major Mono Display", monospace;
+}
+
+#result label:hover{
+    text-transform:uppercase;
+    text-decoration: dotted;
+}
+
+#form label:hover{
+    text-decoration:overline;
+}

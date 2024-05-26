@@ -1,0 +1,32 @@
+header{
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+header:hover{
+    color: purple;
+}  
+
+body{
+    background-color: beige;
+}
+
+a{
+    font-family: "Jaro", sans-serif;
+    font-size: 30px;
+    border: 1px solid rgb(94, 94, 84);
+    font-weight: bold;
+    padding: 20px;
+    background-color: beige;
+    color: black;
+    text-decoration-line: none;
+    margin-left: 10%;
+    border-top: 20%;
+}
+
+
+
+a:hover{
+    border: 2px solid black;
+}
